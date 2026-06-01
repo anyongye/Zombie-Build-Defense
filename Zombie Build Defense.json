@@ -166,7 +166,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402156846,
+        "zoomFactor": 0.6244537826600001,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -202,6 +202,16 @@
           "name": "ZombiesSpawned",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "FireRate",
+          "type": "number",
+          "value": 0.5
+        },
+        {
+          "name": "Score",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -217,22 +227,6 @@
           "x": 559,
           "y": 294,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Zombie",
-          "persistentUuid": "dd1fff21-577b-48e2-a7fc-9a26c8acbe62",
-          "width": 0,
-          "x": 1178,
-          "y": 116,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -294,8 +288,8 @@
           "name": "Spawner",
           "persistentUuid": "c104fd1d-5542-4194-8cb7-e34fe64de1e7",
           "width": 0,
-          "x": 500,
-          "y": -205,
+          "x": 496,
+          "y": -199,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -561,7 +555,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "HP: 5",
+          "string": "HP: ",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -584,7 +578,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "HP: 5",
+            "text": "HP: ",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -717,7 +711,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "BuildMode = \nWood = ",
+          "string": "Test Varible",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
@@ -740,7 +734,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "BuildMode = \nWood = ",
+            "text": "Test Varible",
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -797,6 +791,37 @@
           "conditions": [
             {
               "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "GameOverText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Spawner"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -843,47 +868,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustBegins"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "GameOverText"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Spawner"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "ZombiesSpawned",
-                "=",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
@@ -905,7 +889,7 @@
                 "ShowVar",
                 "Text",
                 "=",
-                "\"BuildMode = \" + ToString(Variable(BuildMode)) + NewLine() + \"Wood = \" + ToString(Variable(Wood))"
+                "\"BuildMode = \" + ToString(Variable(BuildMode)) + NewLine() +\n\"Wood = \" + ToString(Variable(Wood)) + NewLine() +\n\"Wave = \" + ToString(Variable(Wave)) + NewLine() +\n\"Score = \" + ToString(Variable(Score)) + NewLine() +\n\"Spawned = \" + ToString(Variable(ZombiesSpawned)) + \"/\" + ToString(Variable(ZombiesToSpawn))"
               ]
             }
           ]
@@ -948,7 +932,7 @@
                 "",
                 "\"ShootCooldown\"",
                 ">",
-                "0.1"
+                "FireRate"
               ]
             },
             {
@@ -1152,6 +1136,26 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Wood",
+                "+",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Delete"
@@ -1439,6 +1443,58 @@
           "conditions": [
             {
               "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BuildMode",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Barricade",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Barricade",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -1627,6 +1683,68 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ZombiesSpawned",
+                ">=",
+                "ZombiesToSpawn"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Wave",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ZombiesToSpawn",
+                "+",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ZombiesSpawned",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Wood",
+                "+",
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
