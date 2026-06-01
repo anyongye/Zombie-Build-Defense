@@ -187,6 +187,21 @@
           "name": "Wood",
           "type": "number",
           "value": 10
+        },
+        {
+          "name": "Wave",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "ZombiesToSpawn",
+          "type": "number",
+          "value": 5
+        },
+        {
+          "name": "ZombiesSpawned",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -266,6 +281,22 @@
           "x": 20,
           "y": 45,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spawner",
+          "persistentUuid": "c104fd1d-5542-4194-8cb7-e34fe64de1e7",
+          "width": 0,
+          "x": 500,
+          "y": -205,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -717,6 +748,18 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Spawner",
+          "persistentUuid": "e73c61fe-46d0-4eab-a4ff-1974444c93f4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -739,6 +782,9 @@
           },
           {
             "objectName": "Barricade"
+          },
+          {
+            "objectName": "Spawner"
           },
           {
             "objectName": "ShowVar"
@@ -783,6 +829,15 @@
                 "",
                 "\"BarricadeDamageCooldown\""
               ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpawnTimer\""
+              ]
             }
           ]
         },
@@ -805,6 +860,24 @@
               },
               "parameters": [
                 "GameOverText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Spawner"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ZombiesSpawned",
+                "=",
+                ""
               ]
             }
           ]
@@ -1492,6 +1565,65 @@
               "parameters": [
                 "Barricade",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpawnTimer\"",
+                ">",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ZombiesSpawned",
+                "<",
+                "ZombiesToSpawn"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Zombie",
+                "Spawner.X()",
+                "Spawner.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ZombiesSpawned",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpawnTimer\""
               ]
             }
           ]
