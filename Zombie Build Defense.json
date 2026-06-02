@@ -134,6 +134,33 @@
         "name": "Barricade2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TopBarBG.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "TopBarBG",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -166,7 +193,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6244537826600001,
+        "zoomFactor": 0.5117784035210186,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -220,6 +247,7 @@
           "customSize": true,
           "depth": 1,
           "height": 100,
+          "keepRatio": true,
           "layer": "",
           "name": "Player",
           "persistentUuid": "1320db80-9a30-4f88-b853-9357c22d649a",
@@ -236,12 +264,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "UI",
           "name": "HealthText",
           "persistentUuid": "6e6682da-ebc6-4db5-82f0-fdcd157a9810",
           "width": 0,
-          "x": 20,
-          "y": 20,
+          "x": 40,
+          "y": 33,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -249,32 +277,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
+          "customSize": true,
+          "depth": 1,
+          "height": 49,
+          "layer": "UI",
           "name": "GameOverText",
           "persistentUuid": "21122c9d-2317-4633-af82-e6a531486a41",
-          "width": 0,
-          "x": 526,
-          "y": 319,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ShowVar",
-          "persistentUuid": "6cf0f9d4-dd28-4668-a1bd-e4b79c710b99",
-          "width": 0,
-          "x": 20,
-          "y": 45,
-          "zOrder": 5,
+          "width": 249,
+          "x": 470,
+          "y": 300,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -288,9 +300,125 @@
           "name": "Spawner",
           "persistentUuid": "c104fd1d-5542-4194-8cb7-e34fe64de1e7",
           "width": 0,
-          "x": 496,
+          "x": 524,
           "y": -199,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 34,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "WaveText",
+          "persistentUuid": "dc3b1f11-0eae-4707-a54d-6ec4fcd50914",
+          "width": 95,
+          "x": 560,
+          "y": 33,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 26,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "WoodText",
+          "persistentUuid": "66343f44-c208-471c-8514-5562f47afe12",
+          "width": 106,
+          "x": 1010,
+          "y": 25,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "ScoreText",
+          "persistentUuid": "c34cfac7-7bf2-4fb7-b7b1-0dc3c5741a8d",
+          "width": 0,
+          "x": 1010,
+          "y": 55,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "BuildModeText",
+          "persistentUuid": "14d30030-a728-46de-a9e0-19dec74476b6",
+          "width": 0,
+          "x": 500,
+          "y": 615,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Zombie",
+          "persistentUuid": "10ac566c-85b2-4150-b0c3-7c6a3d089f2a",
+          "width": 0,
+          "x": 978,
+          "y": 274,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 70,
+          "layer": "",
+          "name": "TopBarBG",
+          "opacity": 102,
+          "persistentUuid": "c8c3605c-f2b2-4ed8-90cb-d43522846058",
+          "width": 1240,
+          "x": 20,
+          "y": 15,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "layer": "UI",
+          "name": "BottomModeBG",
+          "opacity": 102,
+          "persistentUuid": "431edba7-a1b0-4ca8-8a99-dd2740b2d0f5",
+          "width": 340,
+          "x": 470,
+          "y": 600,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -556,9 +684,9 @@
           "effects": [],
           "behaviors": [],
           "string": "HP: ",
-          "font": "",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 40,
           "color": {
             "b": 0,
             "g": 0,
@@ -579,17 +707,17 @@
             "smoothed": true,
             "underlined": false,
             "text": "HP: ",
-            "font": "",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 40,
             "lineHeight": 0,
             "color": "0;0;0"
           }
         },
         {
           "assetStoreId": "",
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "GameOverText",
           "persistentUuid": "69bfff13-0632-4e65-a3cf-60bf9daf346b",
@@ -599,17 +727,17 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "     GAME OVER\nPress R to Restart",
-          "font": "",
+          "string": "            GAME OVER\nPress R to Restart",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 40,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
           },
           "content": {
-            "bold": false,
+            "bold": true,
             "isOutlineEnabled": false,
             "isShadowEnabled": false,
             "italic": false,
@@ -622,11 +750,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "     GAME OVER\nPress R to Restart",
-            "font": "",
+            "text": "            GAME OVER\nPress R to Restart",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 40,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -754,11 +882,251 @@
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "WaveText",
+          "persistentUuid": "deb39ccd-991e-4804-a1b9-19138d3876f3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Wave",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Wave",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "WoodText",
+          "persistentUuid": "916d67bb-2720-4306-94d9-34d5c5edb7f9",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Wood",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Wood",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ScoreText",
+          "persistentUuid": "a5bff682-9472-42cf-a25c-d6769f8acc63",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Score",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Score",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "BuildModeText",
+          "persistentUuid": "196190dd-e8bf-497f-ad93-5134de432bf7",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "BuildMode On",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 28,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "BuildMode On",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 28,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "TopBarBG",
+          "persistentUuid": "70fee9a9-c4d9-495d-ac64-6be111ea179b",
+          "rightMargin": 0,
+          "texture": "TopBarBG",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "BottomModeBG",
+          "persistentUuid": "239e4ec3-ca39-45ff-96f7-a7416b9f856e",
+          "rightMargin": 0,
+          "texture": "TopBarBG",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "objectName": "HealthText"
+          },
+          {
+            "objectName": "WaveText"
+          },
+          {
+            "objectName": "WoodText"
+          },
+          {
+            "objectName": "ScoreText"
+          },
+          {
+            "objectName": "GameOverText"
+          },
+          {
+            "objectName": "BuildModeText"
+          },
+          {
+            "objectName": "ShowVar"
+          },
+          {
+            "objectName": "Spawner"
+          },
+          {
+            "objectName": "Barricade"
+          },
+          {
+            "objectName": "Bullet"
+          },
           {
             "objectName": "Player"
           },
@@ -766,22 +1134,10 @@
             "objectName": "Zombie"
           },
           {
-            "objectName": "Bullet"
+            "objectName": "TopBarBG"
           },
           {
-            "objectName": "HealthText"
-          },
-          {
-            "objectName": "GameOverText"
-          },
-          {
-            "objectName": "Barricade"
-          },
-          {
-            "objectName": "Spawner"
-          },
-          {
-            "objectName": "ShowVar"
+            "objectName": "BottomModeBG"
           }
         ]
       },
@@ -867,6 +1223,24 @@
           ]
         },
         {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "WaveText",
+                "Text",
+                "=",
+                "\"BuildMode = \" + ToString(Variable(BuildMode)) + NewLine() +\n\"Wood = \" + ToString(Variable(Wood)) + NewLine() +\n\"Wave = \" + ToString(Variable(Wave)) + NewLine() +\n\"Score = \" + ToString(Variable(Score)) + NewLine() +\n\"Spawned = \" + ToString(Variable(ZombiesSpawned)) + \"/\" + ToString(Variable(ZombiesToSpawn))"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -886,10 +1260,32 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "ShowVar",
+                "WaveText",
                 "Text",
                 "=",
-                "\"BuildMode = \" + ToString(Variable(BuildMode)) + NewLine() +\n\"Wood = \" + ToString(Variable(Wood)) + NewLine() +\n\"Wave = \" + ToString(Variable(Wave)) + NewLine() +\n\"Score = \" + ToString(Variable(Score)) + NewLine() +\n\"Spawned = \" + ToString(Variable(ZombiesSpawned)) + \"/\" + ToString(Variable(ZombiesToSpawn))"
+                "\"Wave \" + ToString(Variable(Wave))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "WoodText",
+                "Text",
+                "=",
+                "\"Wood: \" + ToString(Variable(Wood))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "ScoreText",
+                "Text",
+                "=",
+                "\"Score: \" + ToString(Variable(Score))"
               ]
             }
           ]
@@ -917,6 +1313,16 @@
           "conditions": [
             {
               "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BuildMode",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
@@ -933,16 +1339,6 @@
                 "\"ShootCooldown\"",
                 ">",
                 "FireRate"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "BuildMode",
-                "=",
-                "0"
               ]
             }
           ],
@@ -1223,6 +1619,16 @@
                 "",
                 "\"r\""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GameOver",
+                "=",
+                "1"
+              ]
             }
           ],
           "actions": [
@@ -1386,54 +1792,139 @@
                 "=",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "Wood",
-                ">",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Barricade",
-                "CursorX(\"\", 0) - Barricade.Width() / 2",
-                "CursorY(\"\", 0) - Barricade.Height() / 2",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Wood",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Barricade",
+                    "CursorX(\"\", 0) - Barricade.Width() / 2",
+                    "CursorY(\"\", 0) - Barricade.Height() / 2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Wood",
+                    "-",
+                    "1"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Wood",
-                "-",
-                "1"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Barricade",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Barricade",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BuildModeText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BottomModeBG",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "BuildModeText",
+                    "Text",
+                    "=",
+                    "\"Build Mode On\" + NewLine() +\n\"Left Click: Place\" + NewLine() +\n\"Right Click: Delete\" + NewLine() +\n\"Press B to Exit\""
+                  ]
+                }
               ]
             }
           ]
@@ -1448,44 +1939,25 @@
               "parameters": [
                 "BuildMode",
                 "=",
-                "1"
+                "0"
               ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Right\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Barricade",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Delete"
+                "value": "Hide"
               },
               "parameters": [
-                "Barricade",
-                ""
+                "BuildModeText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "BottomModeBG"
               ]
             }
           ]
@@ -1517,6 +1989,46 @@
                 ""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"BarricadeDamageCooldown\"",
+                    ">",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Barricade",
+                    "Health",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"BarricadeDamageCooldown\""
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -1544,56 +2056,6 @@
                 "Player",
                 "Barricade",
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Zombie",
-                "Barricade",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"BarricadeDamageCooldown\"",
-                ">",
-                "0.5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Barricade",
-                "Health",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"BarricadeDamageCooldown\""
               ]
             }
           ]
@@ -1740,11 +2202,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -1775,6 +2232,60 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
