@@ -1,4 +1,30 @@
-TODO List:<br>
+# Zombie Build Defense
+
+Zombie Build Defense is a 2D survival defense game made in GDevelop. The player must survive waves of zombies by moving, shooting, and building barricades.
+
+## How to Play
+
+- W/A/S/D: Move the player
+- Mouse: Aim
+- Left Click: Shoot
+- B: Toggle build mode
+- Left Click in build mode: Place a barricade
+- R: Restart after game over
+
+## Current Features
+
+- Player movement
+- Mouse aiming
+- Shooting system
+- Zombie spawning system
+- Player health system
+- Game over and restart system
+- Build mode
+- Barricade placement
+- Wood resource system
+  
+## TODO List:<br>
+
 &nbsp;&nbsp;&nbsp;  Replace those squares with a real pics<br>
 &nbsp;&nbsp;&nbsp;  Add a pause feature<br>
 &nbsp;&nbsp;&nbsp;  Main menu<br>
