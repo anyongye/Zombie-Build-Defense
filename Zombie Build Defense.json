@@ -98,7 +98,7 @@
       {
         "file": "assets/NewSprite5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite5.png\"}",
         "name": "NewSprite5",
         "smoothed": true,
         "userAdded": false
@@ -159,6 +159,46 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "TopBarBG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Barricade3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Barricade3",
         "smoothed": true,
         "userAdded": false
       }
@@ -245,15 +285,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 100,
+          "depth": 0.6956521739130435,
+          "height": 48,
           "keepRatio": true,
           "layer": "",
           "name": "Player",
           "persistentUuid": "1320db80-9a30-4f88-b853-9357c22d649a",
-          "width": 100,
-          "x": 559,
-          "y": 294,
+          "width": 48,
+          "x": 616,
+          "y": 336,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -293,15 +333,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
           "keepRatio": true,
           "layer": "",
           "name": "Spawner",
           "persistentUuid": "c104fd1d-5542-4194-8cb7-e34fe64de1e7",
-          "width": 0,
-          "x": 524,
-          "y": -199,
+          "width": 32,
+          "x": 640,
+          "y": 720,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -375,22 +416,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Zombie",
-          "persistentUuid": "10ac566c-85b2-4150-b0c3-7c6a3d089f2a",
-          "width": 0,
-          "x": 978,
-          "y": 274,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 70,
@@ -419,6 +444,23 @@
           "x": 470,
           "y": 600,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 10,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bullet",
+          "persistentUuid": "97069d08-7e4e-4fea-85d9-4b7d339bbee9",
+          "width": 10,
+          "x": 966,
+          "y": -130,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -501,7 +543,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite6",
+                      "image": "NewSprite11",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -521,16 +563,16 @@
                             "y": 0
                           },
                           {
-                            "x": 32,
+                            "x": 48,
                             "y": 0
                           },
                           {
-                            "x": 32,
-                            "y": 32
+                            "x": 48,
+                            "y": 48
                           },
                           {
                             "x": 0,
-                            "y": 32
+                            "y": 48
                           }
                         ]
                       ]
@@ -563,7 +605,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite7",
+                      "image": "NewSprite12",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -579,20 +621,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 21,
-                            "y": 18
+                            "x": 2,
+                            "y": 2
                           },
                           {
-                            "x": 43,
-                            "y": 18
+                            "x": 8,
+                            "y": 2
                           },
                           {
-                            "x": 43,
-                            "y": 40
+                            "x": 8,
+                            "y": 8
                           },
                           {
-                            "x": 21,
-                            "y": 40
+                            "x": 2,
+                            "y": 8
                           }
                         ]
                       ]
@@ -631,7 +673,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
+                      "image": "NewSprite9",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -651,16 +693,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 48,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 48,
+                            "y": 48
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 48
                           }
                         ]
                       ]
@@ -787,7 +829,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Barricade",
+                      "image": "Barricade3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -807,16 +849,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 48,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 48,
+                            "y": 48
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 48
                           }
                         ]
                       ]
@@ -1122,16 +1164,16 @@
             "objectName": "Spawner"
           },
           {
-            "objectName": "Barricade"
+            "objectName": "Player"
+          },
+          {
+            "objectName": "Zombie"
           },
           {
             "objectName": "Bullet"
           },
           {
-            "objectName": "Player"
-          },
-          {
-            "objectName": "Zombie"
+            "objectName": "Barricade"
           },
           {
             "objectName": "TopBarBG"
@@ -1316,85 +1358,6 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "BuildMode",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"ShootCooldown\"",
-                ">",
-                "FireRate"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "Player",
-                "Bullet",
-                "Player.CenterX()",
-                "Player.CenterY()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Bullet",
-                "=",
-                "Player.Angle()"
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "Bullet",
-                "Player.Angle()",
-                "800",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"ShootCooldown\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
                 "GameOver",
                 "=",
                 "0"
@@ -1432,36 +1395,250 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Bullet",
-                "Zombie",
-                "",
-                "",
-                ""
+                "BuildMode",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BuildModeText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "BottomModeBG",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "BuildModeText",
+                    "Text",
+                    "=",
+                    "\"Build Mode On\" + NewLine() +\n\"Left Click: Place\" + NewLine() +\n\"Right Click: Delete\" + NewLine() +\n\"Press B to Exit\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Wood",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Barricade",
+                    "CursorX(\"\", 0) - Barricade.Width() / 2",
+                    "CursorY(\"\", 0) - Barricade.Height() / 2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Wood",
+                    "-",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsCursorOnObject"
+                  },
+                  "parameters": [
+                    "Barricade",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Barricade",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BuildMode",
+                "=",
+                "0"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "Hide"
               },
               "parameters": [
-                "Zombie",
-                "Health",
-                "-",
-                "1"
+                "BuildModeText"
               ]
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "Hide"
               },
               "parameters": [
-                "Bullet",
-                ""
+                "BottomModeBG"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShootCooldown\"",
+                    ">",
+                    "FireRate"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Bullet",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "=",
+                    "Player.Angle()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "Player.Angle()",
+                    "800",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ShootCooldown\""
+                  ]
+                }
               ]
             }
           ]
@@ -1524,6 +1701,90 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
+                "Player",
+                "Health",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GameOver",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "GameOverText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Player"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bullet",
+                "Zombie",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Zombie",
+                "Health",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
                 "Zombie",
                 "Health",
                 "<=",
@@ -1568,20 +1829,7 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "Health",
-                "<=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
+                "value": "NumberVariable"
               },
               "parameters": [
                 "GameOver",
@@ -1589,28 +1837,6 @@
                 "1"
               ]
             },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "GameOverText",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Player"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
             {
               "type": {
                 "value": "KeyFromTextJustPressed"
@@ -1618,16 +1844,6 @@
               "parameters": [
                 "",
                 "\"r\""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "GameOver",
-                "=",
-                "1"
               ]
             }
           ],
@@ -1776,188 +1992,6 @@
                 "BuildMode",
                 "=",
                 "1 - Variable(BuildMode)"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "BuildMode",
-                "=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Wood",
-                    ">",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Barricade",
-                    "CursorX(\"\", 0) - Barricade.Width() / 2",
-                    "CursorY(\"\", 0) - Barricade.Height() / 2",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Wood",
-                    "-",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Right\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "IsCursorOnObject"
-                  },
-                  "parameters": [
-                    "Barricade",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Barricade",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "BuildModeText",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "BottomModeBG",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "BuildModeText",
-                    "Text",
-                    "=",
-                    "\"Build Mode On\" + NewLine() +\n\"Left Click: Place\" + NewLine() +\n\"Right Click: Delete\" + NewLine() +\n\"Press B to Exit\""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "BuildMode",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "BuildModeText"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "BottomModeBG"
               ]
             }
           ]
