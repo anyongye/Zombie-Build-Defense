@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 268,
+    "build": 270,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -92,78 +92,6 @@
   "resources": {
     "resources": [
       {
-        "file": "assets/NewSprite8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite15.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite16.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite5.png\"}",
-        "name": "NewSprite5",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite17.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite6",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite18.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite7",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Barricade4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Barricade",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Barricade5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Barricade2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/Kenney Pixel2.ttf",
         "kind": "font",
         "metadata": "",
@@ -183,270 +111,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite19.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite9",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite20.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite10",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite21.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite11",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite22.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite12",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Barricade6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Barricade3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/idle_0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/idle_0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/idle_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/idle_1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/idle_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/idle_2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/idle_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/idle_3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/idle_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/idle_4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/idle_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/idle_5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/walk_0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/walk_1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/walk_2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/walk_3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/walk_4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/walk_5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/walk_6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Player1/walk_7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/idle_02.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/idle_0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/idle_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/idle_1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/idle_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/idle_2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/idle_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/idle_3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/idle_9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/idle_4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/idle_10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/idle_5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_02.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/walk_0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/walk_1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/walk_2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/walk_3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/walk_4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/walk_5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/walk_6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/walk_14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/Zombie1/walk_7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/bullet2.png",
         "kind": "image",
         "metadata": "",
@@ -459,6 +123,486 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/rock2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/idle_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/idle_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/idle_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/idle_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/idle_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/idle_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/idle_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/weaponR2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/weaponR2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/weaponR4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/weaponR2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/weaponR5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/weaponR3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/Idle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/Idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/Idle2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/Idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/Idle3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/Idle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/Idle4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/Idle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/Idle5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/Idle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/Idle6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/walk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/walk.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/walk2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/walk3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/walk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/walk4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/walk5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/walk5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/walk6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/walk6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/walk7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/walk7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player1/walk8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Player1/walk8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/weaponR6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/weaponR4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/Idle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/Idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/Idle2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/Idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/Idle3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/Idle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/Idle4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/Idle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/Idle5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/Idle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/Idle6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Zombie1/walk8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Zombie1/walk8.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -1092,7 +1236,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410740942,
+        "zoomFactor": 0.8700232859857308,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1136,6 +1280,11 @@
         },
         {
           "name": "Score",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "GamePause",
           "type": "number",
           "value": 0
         }
@@ -1385,7 +1534,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/idle_0.png",
+                      "image": "assets/Player1/Idle.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1401,27 +1550,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/idle_1.png",
+                      "image": "assets/Player1/Idle2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1437,27 +1586,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/idle_2.png",
+                      "image": "assets/Player1/Idle3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1473,27 +1622,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/idle_3.png",
+                      "image": "assets/Player1/Idle4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1509,27 +1658,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/idle_4.png",
+                      "image": "assets/Player1/Idle5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1545,27 +1694,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/idle_5.png",
+                      "image": "assets/Player1/Idle6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1581,20 +1730,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
@@ -1609,11 +1758,12 @@
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/walk_0.png",
+                      "image": "assets/Player1/walk.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1629,27 +1779,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/walk_1.png",
+                      "image": "assets/Player1/walk2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1665,27 +1815,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/walk_2.png",
+                      "image": "assets/Player1/walk3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1701,27 +1851,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/walk_3.png",
+                      "image": "assets/Player1/walk4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1737,27 +1887,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/walk_4.png",
+                      "image": "assets/Player1/walk5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1773,27 +1923,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/walk_5.png",
+                      "image": "assets/Player1/walk6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1809,27 +1959,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/walk_6.png",
+                      "image": "assets/Player1/walk7.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1845,27 +1995,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Player1/walk_7.png",
+                      "image": "assets/Player1/walk8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1881,20 +2031,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 757,
-                            "y": 1083
+                            "x": 133,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1083
+                            "x": 674,
+                            "y": 35
                           },
                           {
-                            "x": 1299,
-                            "y": 1782
+                            "x": 674,
+                            "y": 734
                           },
                           {
-                            "x": 757,
-                            "y": 1782
+                            "x": 133,
+                            "y": 734
                           }
                         ]
                       ]
@@ -1995,7 +2145,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/idle_0.png",
+                      "image": "assets/Zombie1/Idle.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2011,27 +2161,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/idle_1.png",
+                      "image": "assets/Zombie1/Idle2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2047,27 +2197,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/idle_2.png",
+                      "image": "assets/Zombie1/Idle3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2083,27 +2233,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/idle_3.png",
+                      "image": "assets/Zombie1/Idle4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2119,27 +2269,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/idle_4.png",
+                      "image": "assets/Zombie1/Idle5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2155,27 +2305,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/idle_5.png",
+                      "image": "assets/Zombie1/Idle6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2191,20 +2341,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
@@ -2219,11 +2369,12 @@
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/walk_0.png",
+                      "image": "assets/Zombie1/walk.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2239,27 +2390,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/walk_1.png",
+                      "image": "assets/Zombie1/walk2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2275,27 +2426,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/walk_2.png",
+                      "image": "assets/Zombie1/walk3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2311,27 +2462,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/walk_3.png",
+                      "image": "assets/Zombie1/walk4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2347,27 +2498,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/walk_4.png",
+                      "image": "assets/Zombie1/walk5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2383,27 +2534,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/walk_5.png",
+                      "image": "assets/Zombie1/walk6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2419,27 +2570,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/walk_6.png",
+                      "image": "assets/Zombie1/walk7.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2455,27 +2606,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Zombie1/walk_7.png",
+                      "image": "assets/Zombie1/walk8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2491,20 +2642,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 798,
-                            "y": 1048
+                            "x": 174,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1048
+                            "x": 612,
+                            "y": 1
                           },
                           {
-                            "x": 1236,
-                            "y": 1782
+                            "x": 612,
+                            "y": 734
                           },
                           {
-                            "x": 798,
-                            "y": 1782
+                            "x": 174,
+                            "y": 734
                           }
                         ]
                       ]
@@ -2936,6 +3087,68 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "WeaponPistol",
+          "persistentUuid": "a4696efc-f73d-4813-a56d-0a5940d072f7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/weaponR2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/weaponR4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 34,
+                            "y": 339
+                          },
+                          {
+                            "x": 794,
+                            "y": 339
+                          },
+                          {
+                            "x": 794,
+                            "y": 749
+                          },
+                          {
+                            "x": 34,
+                            "y": 749
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2979,6 +3192,9 @@
           },
           {
             "objectName": "TopBarBG"
+          },
+          {
+            "objectName": "WeaponPistol"
           },
           {
             "objectName": "BottomModeBG"
@@ -3083,8 +3299,31 @@
               "parameters": [
                 "Player",
                 "Resizable",
-                "160",
-                "160"
+                "60",
+                "60"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "WeaponPistol",
+                "Player.CenterY() + sin(AngleBetweenPositions(Player.CenterX(), Player.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))) * 28 - WeaponPistol.Height() / 2",
+                "Player.CenterY() - WeaponPistol.Height() / 2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "WeaponPistol",
+                "Resizable",
+                "36",
+                "36"
               ]
             }
           ]
@@ -3159,21 +3398,19 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          "conditions": [
             {
               "type": {
-                "value": "RotateTowardPosition"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Player",
-                "CursorX(\"\", 0)",
-                "CursorY(\"\", 0)",
-                "9999",
-                ""
+                "GamePause",
+                "=",
+                "0"
               ]
             }
-          ]
+          ],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -3204,13 +3441,154 @@
             },
             {
               "type": {
-                "value": "RotateTowardObject"
+                "value": "SetXY"
               },
               "parameters": [
-                "Zombie",
-                "Player",
-                "9999",
-                ""
+                "WeaponPistol",
+                "=",
+                "Player.CenterX() + cos(AngleBetweenPositions(Player.CenterX(), Player.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))) * 28 - WeaponPistol.Width() / 2",
+                "=",
+                "Player.CenterY() + sin(AngleBetweenPositions(Player.CenterX(), Player.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))) * 28 - WeaponPistol.Height() / 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "WeaponPistol",
+                "=",
+                "AngleBetweenPositions(WeaponPistol.CenterX(), WeaponPistol.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "CursorX(\"\", 0)",
+                    ">",
+                    "Player.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Flippable",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "WeaponPistol",
+                    "Flippable",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "CursorX(\"\", 0)",
+                    "<",
+                    "Player.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Flippable",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "WeaponPistol",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Zombie.CenterX()",
+                    "<",
+                    "Player.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Zombie",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Zombie.CenterX()",
+                    ">",
+                    "Player.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Zombie",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
               ]
             }
           ]
@@ -3440,8 +3818,8 @@
                   "parameters": [
                     "Player",
                     "Bullet",
-                    "Player.CenterX()",
-                    "Player.CenterY()",
+                    "WeaponPistol.CenterX() - Bullet.Width() / 2",
+                    "WeaponPistol.CenterY() - Bullet.Height() / 2",
                     ""
                   ]
                 },
@@ -3463,7 +3841,7 @@
                   "parameters": [
                     "Bullet",
                     "=",
-                    "Player.Angle()"
+                    "AngleBetweenPositions(WeaponPistol.CenterX(), WeaponPistol.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))"
                   ]
                 },
                 {
@@ -3472,7 +3850,7 @@
                   },
                   "parameters": [
                     "Bullet",
-                    "Player.Angle()",
+                    "AngleBetweenPositions(WeaponPistol.CenterX(), WeaponPistol.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))\n",
                     "800",
                     "1"
                   ]
@@ -4115,8 +4493,8 @@
               "parameters": [
                 "Zombie",
                 "Resizable",
-                "160",
-                "160"
+                "60",
+                "60"
               ]
             },
             {
