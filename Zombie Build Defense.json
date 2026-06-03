@@ -605,6 +605,14 @@
         "name": "assets/Zombie1/walk8.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/PauseBG.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PauseBG",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1236,7 +1244,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8700232859857308,
+        "zoomFactor": 0.5653158055126322,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1287,20 +1295,31 @@
           "name": "GamePause",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "AimAngle",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "AimDistance",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 26,
           "keepRatio": true,
           "layer": "UI",
           "name": "HealthText",
           "persistentUuid": "6e6682da-ebc6-4db5-82f0-fdcd157a9810",
-          "width": 0,
+          "width": 73,
           "x": 40,
-          "y": 33,
+          "y": 35,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1314,9 +1333,9 @@
           "layer": "UI",
           "name": "GameOverText",
           "persistentUuid": "21122c9d-2317-4633-af82-e6a531486a41",
-          "width": 249,
-          "x": 470,
-          "y": 300,
+          "width": 233,
+          "x": 524,
+          "y": 336,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -1343,14 +1362,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 34,
+          "height": 28,
           "keepRatio": true,
           "layer": "UI",
           "name": "WaveText",
           "persistentUuid": "dc3b1f11-0eae-4707-a54d-6ec4fcd50914",
-          "width": 95,
-          "x": 560,
-          "y": 33,
+          "width": 111,
+          "x": 585,
+          "y": 34,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -1365,8 +1384,8 @@
           "layer": "UI",
           "name": "WoodText",
           "persistentUuid": "66343f44-c208-471c-8514-5562f47afe12",
-          "width": 106,
-          "x": 1010,
+          "width": 110,
+          "x": 1020,
           "y": 25,
           "zOrder": 8,
           "numberProperties": [],
@@ -1375,14 +1394,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 26,
           "keepRatio": true,
           "layer": "UI",
           "name": "ScoreText",
           "persistentUuid": "c34cfac7-7bf2-4fb7-b7b1-0dc3c5741a8d",
-          "width": 0,
-          "x": 1010,
+          "width": 163,
+          "x": 1020,
           "y": 55,
           "zOrder": 9,
           "numberProperties": [],
@@ -1399,8 +1419,8 @@
           "persistentUuid": "14d30030-a728-46de-a9e0-19dec74476b6",
           "width": 0,
           "x": 500,
-          "y": 615,
-          "zOrder": 10,
+          "y": 610,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1452,6 +1472,39 @@
           "x": 966,
           "y": -130,
           "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "UI",
+          "name": "PauseBG",
+          "opacity": 128,
+          "persistentUuid": "e927afd0-d55b-4d6b-819a-11e3a56624eb",
+          "width": 1280,
+          "x": 8,
+          "y": 1002,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 36,
+          "layer": "",
+          "name": "PauseTitleText",
+          "persistentUuid": "8766fd88-f110-484e-97c9-1e2167dfcd2f",
+          "width": 126,
+          "x": 535,
+          "y": 810,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3149,32 +3202,205 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PauseBG",
+          "persistentUuid": "03e57e53-38f4-408d-a131-fc8f085863d2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "PauseBG",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "PauseBG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "PauseTitleText",
+          "persistentUuid": "9fa1a737-626b-4590-80b9-2da8119ff93f",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "PAUSED",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 56,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "PAUSED",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 56,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ResumeText",
+          "persistentUuid": "fc376778-6ffc-41b4-9b7a-2af731f84914",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "RESUME GAME",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "RESUME GAME",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "MainMenuText",
+          "persistentUuid": "34263413-22cb-4595-af66-c9f83afd08ec",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "MAIN MENU",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 36,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "MAIN MENU",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 36,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
-          {
-            "objectName": "HealthText"
-          },
-          {
-            "objectName": "WaveText"
-          },
-          {
-            "objectName": "WoodText"
-          },
-          {
-            "objectName": "ScoreText"
-          },
-          {
-            "objectName": "GameOverText"
-          },
-          {
-            "objectName": "BuildModeText"
-          },
-          {
-            "objectName": "ShowVar"
-          },
           {
             "objectName": "Spawner"
           },
@@ -3191,13 +3417,51 @@
             "objectName": "Barricade"
           },
           {
-            "objectName": "TopBarBG"
-          },
-          {
             "objectName": "WeaponPistol"
           },
           {
-            "objectName": "BottomModeBG"
+            "folderName": "UI",
+            "children": [
+              {
+                "objectName": "GameOverText"
+              },
+              {
+                "objectName": "BuildModeText"
+              },
+              {
+                "objectName": "ScoreText"
+              },
+              {
+                "objectName": "WoodText"
+              },
+              {
+                "objectName": "WaveText"
+              },
+              {
+                "objectName": "ShowVar"
+              },
+              {
+                "objectName": "HealthText"
+              },
+              {
+                "objectName": "PauseTitleText"
+              },
+              {
+                "objectName": "ResumeText"
+              },
+              {
+                "objectName": "MainMenuText"
+              },
+              {
+                "objectName": "TopBarBG"
+              },
+              {
+                "objectName": "BottomModeBG"
+              },
+              {
+                "objectName": "PauseBG"
+              }
+            ]
           }
         ]
       },
@@ -3310,8 +3574,8 @@
               "parameters": [
                 "",
                 "WeaponPistol",
-                "Player.CenterY() + sin(AngleBetweenPositions(Player.CenterX(), Player.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))) * 28 - WeaponPistol.Height() / 2",
-                "Player.CenterY() - WeaponPistol.Height() / 2",
+                "Player.X()",
+                "Player.Y()",
                 ""
               ]
             },
@@ -3324,24 +3588,6 @@
                 "Resizable",
                 "36",
                 "36"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "WaveText",
-                "Text",
-                "=",
-                "\"BuildMode = \" + ToString(Variable(BuildMode)) + NewLine() +\n\"Wood = \" + ToString(Variable(Wood)) + NewLine() +\n\"Wave = \" + ToString(Variable(Wave)) + NewLine() +\n\"Score = \" + ToString(Variable(Score)) + NewLine() +\n\"Spawned = \" + ToString(Variable(ZombiesSpawned)) + \"/\" + ToString(Variable(ZombiesToSpawn))"
               ]
             }
           ]
@@ -3393,6 +3639,227 @@
                 "=",
                 "\"Score: \" + ToString(Variable(Score))"
               ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "WeaponPistol",
+                "=",
+                "Variable(AimAngle)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpawnTimer\"",
+                ">",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ZombiesSpawned",
+                "<",
+                "ZombiesToSpawn"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Zombie",
+                "Spawner.X()",
+                "Spawner.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "Zombie",
+                "Resizable",
+                "60",
+                "60"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ZombiesSpawned",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpawnTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ZombiesSpawned",
+                ">=",
+                "ZombiesToSpawn"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Wave",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ZombiesToSpawn",
+                "+",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ZombiesSpawned",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Wood",
+                "+",
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "WaveText",
+                "Text",
+                "=",
+                "\"BuildMode = \" + ToString(Variable(BuildMode)) + NewLine() +\n\"Wood = \" + ToString(Variable(Wood)) + NewLine() +\n\"Wave = \" + ToString(Variable(Wave)) + NewLine() +\n\"Score = \" + ToString(Variable(Score)) + NewLine() +\n\"Spawned = \" + ToString(Variable(ZombiesSpawned)) + \"/\" + ToString(Variable(ZombiesToSpawn))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "DistanceBetweenPositions(Player.CenterX(), Player.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))",
+                ">",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "WeaponPistol",
+                "=",
+                "Player.CenterX() + ((CursorX(\"\", 0) - Player.CenterX()) / Variable(AimDistance)) * 42 - WeaponPistol.Width() / 2",
+                "=",
+                "Player.CenterY() + ((CursorY(\"\", 0) - Player.CenterY()) / Variable(AimDistance)) * 42 - WeaponPistol.Height() / 2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "DistanceBetweenPositions(Player.CenterX(), Player.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))",
+                ">",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "AimDistance",
+                "=",
+                "DistanceBetweenPositions(Player.CenterX(), Player.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "AimAngle",
+                "=",
+                "AngleBetweenPositions(Player.CenterX(), Player.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))"
+              ]
             }
           ]
         },
@@ -3437,28 +3904,6 @@
                 "Player.CenterY()",
                 "100",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "WeaponPistol",
-                "=",
-                "Player.CenterX() + cos(AngleBetweenPositions(Player.CenterX(), Player.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))) * 28 - WeaponPistol.Width() / 2",
-                "=",
-                "Player.CenterY() + sin(AngleBetweenPositions(Player.CenterX(), Player.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))) * 28 - WeaponPistol.Height() / 2"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "WeaponPistol",
-                "=",
-                "AngleBetweenPositions(WeaponPistol.CenterX(), WeaponPistol.CenterY(), CursorX(\"\", 0), CursorY(\"\", 0))"
               ]
             }
           ],
@@ -3594,6 +4039,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4444,133 +4890,6 @@
               "parameters": [
                 "Barricade",
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"SpawnTimer\"",
-                ">",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "ZombiesSpawned",
-                "<",
-                "ZombiesToSpawn"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Zombie",
-                "Spawner.X()",
-                "Spawner.Y()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResizableCapability::ResizableBehavior::SetSize"
-              },
-              "parameters": [
-                "Zombie",
-                "Resizable",
-                "60",
-                "60"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "ZombiesSpawned",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"SpawnTimer\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "ZombiesSpawned",
-                ">=",
-                "ZombiesToSpawn"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Wave",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "ZombiesToSpawn",
-                "+",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "ZombiesSpawned",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Wood",
-                "+",
-                "5"
               ]
             }
           ]
