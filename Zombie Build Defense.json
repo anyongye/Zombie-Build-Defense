@@ -3756,6 +3756,16 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GameOver",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [],
