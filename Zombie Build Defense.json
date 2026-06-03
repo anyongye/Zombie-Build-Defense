@@ -1195,7 +1195,7 @@
           "layer": "UI",
           "name": "HealthText",
           "persistentUuid": "6e6682da-ebc6-4db5-82f0-fdcd157a9810",
-          "width": 73,
+          "width": 110,
           "x": 40,
           "y": 35,
           "zOrder": 3,
@@ -1229,7 +1229,7 @@
           "layer": "UI",
           "name": "WaveText",
           "persistentUuid": "dc3b1f11-0eae-4707-a54d-6ec4fcd50914",
-          "width": 111,
+          "width": 129,
           "x": 585,
           "y": 34,
           "zOrder": 7,
@@ -4300,7 +4300,7 @@
                 "HealthText",
                 "Text",
                 "=",
-                "\"HP: \" + ToString(Player.Variable(Health))"
+                "\"HP: \" + ToString(Player.Variable(Health)) + \"/\" + ToString(MaxHP)"
               ]
             },
             {
@@ -5377,8 +5377,8 @@
                       "parameters": [
                         "Player",
                         "Health",
-                        "=",
-                        "Variable(MaxHP)"
+                        "+",
+                        "1"
                       ]
                     },
                     {
@@ -5766,8 +5766,8 @@
                       "parameters": [
                         "Player",
                         "Health",
-                        "=",
-                        "Variable(MaxHP)"
+                        "+",
+                        "1"
                       ]
                     },
                     {
@@ -6155,8 +6155,8 @@
                       "parameters": [
                         "Player",
                         "Health",
-                        "=",
-                        "Variable(MaxHP)"
+                        "+",
+                        "1"
                       ]
                     },
                     {
@@ -7323,6 +7323,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7682,6 +7683,17 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Health",
+                        "<",
+                        "MaxHP"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "NumberVariable"
                       },
                       "parameters": [
@@ -7914,6 +7926,43 @@
                   },
                   "parameters": [
                     "",
+                    "\"w\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::SimulateControl"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    "\"Up\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
                     "\"b\""
                   ]
                 },
@@ -8003,34 +8052,34 @@
                       ]
                     }
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Barricade",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SeparateFromObjects"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Barricade",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Barricade",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Barricade",
+                    ""
                   ]
                 }
               ]
@@ -8058,43 +8107,6 @@
                   "parameters": [
                     "Barricade",
                     ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"w\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::SimulateControl"
-                  },
-                  "parameters": [
-                    "Player",
-                    "TopDownMovement",
-                    "\"Up\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "1"
                   ]
                 }
               ]
