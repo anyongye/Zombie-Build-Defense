@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "75f73281-a3b6-4af0-9e54-ba5495f52c4c",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Zombie Build Defense",
@@ -4063,7 +4063,7 @@
                 "PauseBG",
                 "Resizable",
                 "1280",
-                "720"
+                "780"
               ]
             },
             {
@@ -4448,7 +4448,7 @@
               "parameters": [
                 "",
                 "BoundaryWall4",
-                "1240",
+                "1280",
                 "0",
                 ""
               ]
