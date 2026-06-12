@@ -405,6 +405,234 @@
         "name": "NewSprite4",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "ChatGPT Image Jun 12, 2026, 10_50_53 AM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ChatGPT Image Jun 12, 2026, 10_50_53 AM.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ChatGPT Image Jun 12, 2026, 10_50_53 AM2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ChatGPT Image Jun 12, 2026, 10_50_53 AM2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "idle_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "walk_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "walk_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "walk_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "walk_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "20 Gauge Single Isolated.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "20 Gauge Single Isolated.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "308 Single Isolated.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "308 Single Isolated.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "ZombieDead.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ZombieDead.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "ZombieAtack2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ZombieAtack2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "ZombieAtack1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ZombieAtack1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "universfield-game-over-deep-male-voice-clip-352695.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "universfield-game-over-deep-male-voice-clip-352695.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "freesound_community-put_item-83043.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "freesound_community-put_item-83043.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "freesound_gamestudio-purchase-success-384963.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "freesound_gamestudio-purchase-success-384963.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "freesound_gamestudio-purchase-success-384962.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "freesound_gamestudio-purchase-success-384962.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "freesound_gamestudio-purchase-success-384961.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "freesound_gamestudio-purchase-success-384961.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -491,6 +719,24 @@
           "x": 540,
           "y": 400,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "background",
+          "persistentUuid": "ce8d057a-ed5d-4f75-9a11-66a0168b1f60",
+          "width": 1279.3198724760898,
+          "x": 0,
+          "y": 0,
+          "zOrder": -100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -628,6 +874,67 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background",
+          "persistentUuid": "e9180b5e-696c-4725-9289-eab3592c3151",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ChatGPT Image Jun 12, 2026, 10_50_53 AM.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 0
+                          },
+                          {
+                            "x": 1672,
+                            "y": 941
+                          },
+                          {
+                            "x": 0,
+                            "y": 941
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -635,6 +942,9 @@
         "children": [
           {
             "objectName": "TitleText"
+          },
+          {
+            "objectName": "background"
           },
           {
             "objectName": "StartText"
@@ -997,12 +1307,24 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
@@ -1036,7 +1358,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.841642812537312,
+        "zoomFactor": 0.529035740215685,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1387,6 +1709,24 @@
           "x": 33,
           "y": 113,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720.3827751196172,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "NewSprite2",
+          "persistentUuid": "e91171e4-bbd6-46d4-bda5-9153cd7061d9",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": -100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3985,7 +4325,560 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite4",
+                      "image": "idle_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "walk_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "walk_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "walk_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "walk_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "walk_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "walk_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "walk_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "walk_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 666,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1180
+                          },
+                          {
+                            "x": 1358,
+                            "y": 1782
+                          },
+                          {
+                            "x": 666,
+                            "y": 1782
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "persistentUuid": "7aad8f6e-5d2e-453b-9fba-d08216b4a24f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "persistentUuid": "37bcb963-6b26-4e03-b670-e87a2e23ee68",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ChatGPT Image Jun 12, 2026, 10_50_53 AM2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4005,16 +4898,16 @@
                             "y": 0
                           },
                           {
-                            "x": 100,
+                            "x": 1672,
                             "y": 0
                           },
                           {
-                            "x": 100,
-                            "y": 100
+                            "x": 1672,
+                            "y": 941
                           },
                           {
                             "x": 0,
-                            "y": 100
+                            "y": 941
                           }
                         ]
                       ]
@@ -4144,6 +5037,12 @@
                 "objectName": "MainMenuText"
               }
             ]
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewSprite2"
           }
         ]
       },
@@ -4956,7 +5855,6 @@
           "parameters": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5963,6 +6861,18 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "freesound_gamestudio-purchase-success-384963.mp3",
+                    "",
+                    "30",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -6363,6 +7273,18 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "freesound_gamestudio-purchase-success-384962.mp3",
+                    "",
+                    "30",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -6761,6 +7683,18 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "freesound_gamestudio-purchase-success-384961.mp3",
+                    "",
+                    "30",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -8066,7 +9000,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8149,6 +9082,18 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "freesound_community-put_item-83043.mp3",
+                        "",
+                        "20",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Create"
                       },
                       "parameters": [
@@ -8227,7 +9172,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8336,6 +9280,18 @@
                       "parameters": [
                         "",
                         "\"ShootCooldown\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "308 Single Isolated.mp3",
+                        "",
+                        "30",
+                        "1"
                       ]
                     }
                   ]
@@ -8455,9 +9411,31 @@
                     "<=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "GameOver",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "universfield-game-over-deep-male-voice-clip-352695.mp3",
+                    "",
+                    "30",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -8513,6 +9491,18 @@
                     "Health",
                     "-",
                     "Variable(AttackDamage)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "ZombieAtack1.wav",
+                    "",
+                    "10",
+                    "1"
                   ]
                 },
                 {
@@ -8642,6 +9632,18 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "ZombieDead.wav",
+                    "",
+                    "30",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -8757,6 +9759,18 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "ZombieAtack2.wav",
+                    "",
+                    "30",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
