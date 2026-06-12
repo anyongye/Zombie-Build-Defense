@@ -389,6 +389,22 @@
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1050,7 +1066,7 @@
         {
           "name": "ZombiesToSpawn",
           "type": "number",
-          "value": 5
+          "value": 6
         },
         {
           "name": "ZombiesSpawned",
@@ -1196,6 +1212,31 @@
           "name": "CanChooseUpgrade",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "ZombieSpeed",
+          "type": "number",
+          "value": 83
+        },
+        {
+          "name": "NextBossWave",
+          "type": "number",
+          "value": 5
+        },
+        {
+          "name": "BossSpawned",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "BossHealth",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "BossSpeed",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -1330,6 +1371,22 @@
           "x": 966,
           "y": -130,
           "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ShowVar",
+          "persistentUuid": "fa3eeb95-9828-4650-bcf5-cef86a202515",
+          "width": 0,
+          "x": 33,
+          "y": 113,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3889,6 +3946,84 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BossZombie",
+          "persistentUuid": "bf0a8fba-dc91-4e03-9291-1e4deaaf4bd1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Health",
+              "type": "number",
+              "value": 50
+            },
+            {
+              "name": "Speed",
+              "type": "number",
+              "value": 60
+            },
+            {
+              "name": "Damage",
+              "type": "number",
+              "value": 2
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 100
+                          },
+                          {
+                            "x": 0,
+                            "y": 100
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3899,6 +4034,9 @@
           },
           {
             "objectName": "Zombie"
+          },
+          {
+            "objectName": "BossZombie"
           },
           {
             "objectName": "Bullet"
@@ -4674,7 +4812,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -4683,10 +4820,10 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "WaveText",
+                "ShowVar",
                 "Text",
                 "=",
-                "\"BuildMode = \" + ToString(Variable(BuildMode)) + NewLine() +\n\"Wood = \" + ToString(Variable(Wood)) + NewLine() +\n\"Wave = \" + ToString(Variable(Wave)) + NewLine() +\n\"Score = \" + ToString(Variable(Score)) + NewLine() +\n\"Spawned = \" + ToString(Variable(ZombiesSpawned)) + \"/\" + ToString(Variable(ZombiesToSpawn)) + NewLine() +\n\"UpgradeMenu = \" + ToString(Variable(UpgradeMenu)) + NewLine() +\n\"WavePhase = \" + ToString(Variable(WavePhase))"
+                "\"Spawned = \" + ToString(Variable(ZombiesSpawned)) + \"/\" + ToString(Variable(ZombiesToSpawn)) + NewLine() +\n\"UpgradeMenu = \" + ToString(Variable(UpgradeMenu)) + NewLine() +\n\"WavePhase = \" + ToString(Variable(WavePhase)) + NewLine() + \"Zombie Health\" + ToString(Zombie.Health) + NewLine() + ToString(3 + floor(Wave / 3))"
               ]
             }
           ]
@@ -4808,6 +4945,18 @@
           ]
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "UpgradeMenu",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5677,7 +5826,7 @@
                     "UpgradeOption3Text",
                     "Text",
                     "=",
-                    "\"[Rare] +0.5 Wood Gain\" + NewLine() +\n\"Cost: \" + ToString(Variable(Upgrade1Cost)) + \" Wood\""
+                    "\"[Rare] +1 Wood Gain\" + NewLine() +\n\"Cost: \" + ToString(Variable(Upgrade1Cost)) + \" Wood\""
                   ]
                 }
               ]
@@ -7032,6 +7181,17 @@
           ]
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "In Game",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -7142,6 +7302,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7203,6 +7364,46 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ZombieSpeed",
+                    "=",
+                    "80 + Wave * 3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BossSpawned",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BossHealth",
+                    "=",
+                    "20 + Variable(Wave) * 5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BossSpeed",
+                    "=",
+                    "55 + Variable(Wave) * 2"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ResetTimer"
                   },
                   "parameters": [
@@ -7216,6 +7417,72 @@
                   },
                   "parameters": [
                     "NextWaveText"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Wave",
+                        "!=",
+                        "NextBossWave"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "ZombiesToSpawn",
+                        "=",
+                        "4 + Wave * 2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Wave",
+                        "=",
+                        "NextBossWave"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "ZombiesToSpawn",
+                        "=",
+                        "3 + Variable(Wave)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "BossSpawned",
+                        "=",
+                        "0"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -7405,6 +7672,17 @@
                     },
                     {
                       "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Zombie",
+                        "Health",
+                        "=",
+                        "3 + floor(Wave / 3)"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
@@ -7480,6 +7758,17 @@
                         "Resizable",
                         "60",
                         "60"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Zombie",
+                        "Health",
+                        "=",
+                        "3 + floor(Wave / 3)"
                       ]
                     },
                     {
@@ -7563,6 +7852,17 @@
                     },
                     {
                       "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Zombie",
+                        "Health",
+                        "=",
+                        "3 + floor(Wave / 3)"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
@@ -7578,6 +7878,88 @@
                       "parameters": [
                         "",
                         "\"SpawnTimer\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Wave",
+                        "=",
+                        "NextBossWave"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "BossSpawned",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "BossZombie",
+                        "590",
+                        "780",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "BossZombie",
+                        "Health",
+                        "=",
+                        "Variable(BossHealth)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "BossZombie",
+                        "Speed",
+                        "=",
+                        "Variable(BossSpeed)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                      },
+                      "parameters": [
+                        "BossZombie",
+                        "Resizable",
+                        "100",
+                        "100"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "BossSpawned",
+                        "=",
+                        "1"
                       ]
                     }
                   ]
@@ -7627,19 +8009,20 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "BossZombie",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "ZombiesToSpawn",
-                    "+",
-                    "5"
-                  ]
-                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -7657,7 +8040,7 @@
                   "parameters": [
                     "Wood",
                     "+",
-                    "5"
+                    "4 + Wave"
                   ]
                 },
                 {
@@ -7964,65 +8347,6 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Regen",
-                    ">",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    "<",
-                    "MaxHP"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"RegenTimer\"",
-                    ">",
-                    "5 / Variable(Regen)"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"RegenTimer\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -8054,7 +8378,57 @@
                     "Player",
                     "Health",
                     "-",
-                    "max(1 - Variable(Defense) * 0.25, 0.25)"
+                    "max(1 - Variable(Defense) * 0.15, 0.4)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DamageCooldown\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "BossZombie",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DamageCooldown\"",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "-",
+                    "2"
                   ]
                 },
                 {
@@ -8157,6 +8531,104 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    "BossZombie",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "BossZombie",
+                    "Health",
+                    "-",
+                    "Variable(AttackDamage)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bullet",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Regen",
+                    ">",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "<",
+                    "MaxHP"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RegenTimer\"",
+                    ">",
+                    "max(6 - Regen, 2)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RegenTimer\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
@@ -8232,7 +8704,7 @@
                       "parameters": [
                         "LifeStealRandom",
                         "=",
-                        "Random(100)"
+                        "RandomInRange(1,100)"
                       ]
                     }
                   ],
@@ -8246,8 +8718,8 @@
                           },
                           "parameters": [
                             "LifeStealRandom",
-                            ">",
-                            "100-LifeSteal"
+                            "<=",
+                            "LifeSteal * 10"
                           ]
                         }
                       ],
@@ -8265,6 +8737,63 @@
                         }
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "BossZombie",
+                    "Health",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "100 + Variable(Wave) * 10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Wood",
+                    "+",
+                    "8 + Variable(Wave)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BossZombie",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "NextBossWave",
+                    "+",
+                    "5"
                   ]
                 }
               ]
@@ -8584,6 +9113,75 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
+                    "BossZombie",
+                    "Barricade",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "BossZombie",
+                    "Barricade",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"BarricadeDamageCooldown\"",
+                        ">",
+                        "0.5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Barricade",
+                        "Health",
+                        "-",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"BarricadeDamageCooldown\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
                     "Player",
                     "Barricade",
                     "",
@@ -8634,18 +9232,7 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "GameOver",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": [
                 {
                   "type": {
@@ -8655,7 +9242,19 @@
                     "Zombie",
                     "Player.CenterX()",
                     "Player.CenterY()",
-                    "100",
+                    "ZombieSpeed",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceTowardPosition"
+                  },
+                  "parameters": [
+                    "BossZombie",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    "BossZombie.Speed",
                     "0"
                   ]
                 }
@@ -8736,7 +9335,8 @@
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Zombie",
                   "conditions": [
                     {
                       "type": {
@@ -8763,7 +9363,8 @@
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Zombie",
                   "conditions": [
                     {
                       "type": {
@@ -8783,6 +9384,60 @@
                       },
                       "parameters": [
                         "Zombie",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "BossZombie.CenterX()",
+                        "<",
+                        "Player.CenterX()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "BossZombie",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "BossZombie.CenterX()",
+                        ">",
+                        "Player.CenterX()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "BossZombie",
                         "Flippable",
                         "yes"
                       ]
@@ -8851,6 +9506,17 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Pause",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
         },
         {
           "folded": true,
