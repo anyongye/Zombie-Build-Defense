@@ -633,6 +633,118 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk_0.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk_0",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk_02.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk_02",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk_03.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk_03",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk_04.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk_04",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk_05.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk_05",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk_06.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk_06",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk_07.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk_07",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk_08.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk_08",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -2958,9 +3070,9 @@
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": false,
@@ -2982,7 +3094,7 @@
             "verticalTextAlignment": "top",
             "characterSize": 40,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -3158,9 +3270,9 @@
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": false,
@@ -3182,7 +3294,7 @@
             "verticalTextAlignment": "top",
             "characterSize": 40,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -3202,9 +3314,9 @@
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": false,
@@ -3226,7 +3338,7 @@
             "verticalTextAlignment": "top",
             "characterSize": 40,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -3246,9 +3358,9 @@
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": false,
@@ -3270,7 +3382,7 @@
             "verticalTextAlignment": "top",
             "characterSize": 40,
             "lineHeight": 0,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -4325,7 +4437,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "idle_0.png",
+                      "image": "NewSprite5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4341,27 +4453,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "idle_1.png",
+                      "image": "NewSprite6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4377,27 +4489,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "idle_2.png",
+                      "image": "NewSprite7",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4413,27 +4525,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "idle_3.png",
+                      "image": "NewSprite8",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4449,27 +4561,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "idle_4.png",
+                      "image": "NewSprite9",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4485,27 +4597,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "idle_5.png",
+                      "image": "NewSprite10",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4521,20 +4633,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
@@ -4544,16 +4656,17 @@
               ]
             },
             {
-              "name": "",
+              "name": "walk_0",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "walk_0.png",
+                      "image": "walk_0",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4569,27 +4682,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "walk_1.png",
+                      "image": "walk_02",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4605,27 +4718,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "walk_2.png",
+                      "image": "walk_03",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4641,27 +4754,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "walk_3.png",
+                      "image": "walk_04",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4677,27 +4790,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "walk_4.png",
+                      "image": "walk_05",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4713,27 +4826,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "walk_5.png",
+                      "image": "walk_06",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4749,27 +4862,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "walk_6.png",
+                      "image": "walk_07",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4785,27 +4898,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "walk_7.png",
+                      "image": "walk_08",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4821,20 +4934,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 666,
-                            "y": 1180
+                            "x": 42,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1180
+                            "x": 734,
+                            "y": 133
                           },
                           {
-                            "x": 1358,
-                            "y": 1782
+                            "x": 734,
+                            "y": 734
                           },
                           {
-                            "x": 666,
-                            "y": 1782
+                            "x": 42,
+                            "y": 734
                           }
                         ]
                       ]
@@ -9495,18 +9608,6 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "ZombieAtack1.wav",
-                    "",
-                    "10",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
@@ -9630,18 +9731,6 @@
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "ZombieDead.wav",
-                    "",
-                    "30",
-                    "1"
-                  ]
-                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -10222,6 +10311,35 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "BossZombie",
+                    "Zombie",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Zombie",
+                    "BossZombie",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
@@ -10270,6 +10388,28 @@
                     "Player.CenterY()",
                     "BossZombie.Speed",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "BossZombie",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Zombie",
+                    "Animation",
+                    "=",
+                    "1"
                   ]
                 }
               ],
