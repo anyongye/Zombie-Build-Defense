@@ -1,6 +1,6 @@
-# Zombie Build Defense
-
 Zombie Build Defense is a 2D survival defense game made in GDevelop. The player must survive waves of zombies by moving, shooting, and building barricades. The goal is to stay alive and use barricades to slow down the zombies.
+<img width="1280" height="718" alt="image" src="https://github.com/user-attachments/assets/b4d793a7-8772-499a-a545-e61965ed3bf2" />
+
 
 ## How to Play
 
